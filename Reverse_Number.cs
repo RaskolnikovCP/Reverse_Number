@@ -9,12 +9,7 @@ public int ReverseNumber(int n)
             {
                 int r = left % 10;
                 rev = rev * 10 + r;
-                left = left / 10;  //left = Math.floor(left / 10); 
-                //return left;
-                /*if (left == 0)
-                {
-                    return rev;
-                }*/
+                left = left / 10;  
             }
 
             return rev;
